@@ -29,6 +29,8 @@ echo $SHELL
 ./scripts/run_all.zsh
 ```
 
+Or, run each individually. 
+
 ### Setup new system
 ```bash
 ./scripts/setup_new_system.sh
