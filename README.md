@@ -1,5 +1,11 @@
 # Dotfiles
 
+To copy ~/.zshrc to dotfiles/.zshrc you can run:
+```bash
+chmod +x ./sync-zshrc.sh
+./sync-zshrc
+```
+
 ## Scripts
 These install / setup scripts should work on linux and macOS, but so far I have only tested them in linux.
 
@@ -48,4 +54,9 @@ This `setup_new_system.sh` script installs and sets up the following:
 ### Install fd
 ```bash
 ./scripts/install_fd.sh
+```
+
+### Install tree
+```bash
+./scripts/install_tree.sh
 ```
