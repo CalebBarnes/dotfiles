@@ -1,6 +1,6 @@
 # Dotfiles
 
-To copy ~/.zshrc to dotfiles/.zshrc you can run:
+To copy ~/.zshrc to ~/dotfiles/.zshrc you can run:
 ```bash
 chmod +x ./sync-zshrc.sh
 ./sync-zshrc
