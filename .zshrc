@@ -16,7 +16,8 @@ compinit
 
 # oh-my-posh (and maybe other stuff)
 export PATH="$HOME/.local/bin:$PATH"
-eval "$(oh-my-posh init zsh)"
+# eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/robbyrussell.omp.json)"
 
 # fnm
 export PATH="$HOME/.local/share/fnm:$PATH"
