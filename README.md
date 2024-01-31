@@ -60,3 +60,8 @@ This `setup_new_system.sh` script installs and sets up the following:
 ```bash
 ./scripts/install_tree.sh
 ```
+
+### Install viu (and Rust/Cargo if necessary)
+```bash
+./scripts/install_viu.sh
+```
